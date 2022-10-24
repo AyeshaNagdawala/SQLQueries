@@ -45,3 +45,14 @@ WHERE name LIKE '_A%';
 SELECT name , city FROM client_master
 WHERE city='Bombay' OR city='Delhi';
 ```
+
+## Display client name whose balance due is greater than 10000 
+```sql
+SELECT name, bal_due FROM client_master
+WHERE bal_due>10000;
+```
+## Display order info of orders placed in January
+```sql
+SELECT s_order_no,s_order_date FROM sales_order
+WHERE s_order_date  LIKE '__%01%'; 
+```
