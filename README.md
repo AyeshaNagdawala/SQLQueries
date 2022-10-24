@@ -1,5 +1,5 @@
 # SQLQuieries
-##Display entire table content
+## Display entire table content
 SELECT * FROM client_master;
 
 ##Display client names 
