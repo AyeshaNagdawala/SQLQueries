@@ -25,14 +25,14 @@ ORDER BY name;
 ```sql
 SELECT client_no,bal_due FROM client_master 
 ORDER BY client_no desc ;
-
+```
 
 ## Display names starting from 'R'
 ```sql
 SELECT name FROM client_master
 WHERE name LIKE 'r%';
 ```
-`Note: 'r%' is not case sensitive.`
+> Note: 'r%' is not case sensitive.
 
 ## Display names having  'A' as the second alphabet 
 ```sql
