@@ -1,6 +1,9 @@
 # SQLQuieries
+
 ## Display entire table content
+```sql
 SELECT * FROM client_master;
+```
 
 ##Display client names 
 SELECT name FROM client_master;
