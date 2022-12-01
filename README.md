@@ -1,4 +1,4 @@
-# SQLQuieries
+# SQLQueries
 
 ## Display entire table content
 ```sql
